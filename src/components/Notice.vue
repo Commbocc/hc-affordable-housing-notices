@@ -3,7 +3,7 @@ import { notices } from "../lib/notices";
 </script>
 
 <template>
-  <div class="accordion mt-2" id="accordionAffordable">
+  <div class="accordion pt-2" id="accordionAffordable">
     <template v-for="(notice, i) in notices.data">
       <div v-if="notice.fields.ApprovedByPRSWeb" class="accordion-item">
         <div>
