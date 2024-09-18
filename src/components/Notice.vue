@@ -92,7 +92,7 @@ import { notices } from "../lib/notices";
                   or call {{ notice.fields.ContactPhone }}
                 </p>
 
-                <p>
+                <p v-if="notice.fields.SpanishAttachment">
                   <strong>Ver o descargar aviso: </strong>
 
                   <a
